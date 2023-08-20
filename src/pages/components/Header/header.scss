@@ -1,0 +1,27 @@
+#root > nav {
+  padding: 0px;
+
+  .navigation {
+    a {
+      &:hover,
+      &:focus {
+        color: #3a6fff;
+      }
+    }
+  }
+
+  .book-btn {
+    height: 100%;
+    font-weight: 500;
+    border: none;
+    background-color: #ff3c6c;
+    color: white;
+    font-size: 16px;
+    padding: 18px 37px 18px 37px;
+    transition: all 0.4s ease;
+
+    &:hover {
+      background-color: #406cfc;
+    }
+  }
+}
