@@ -18,12 +18,10 @@ const Header = () => {
             <Link to="/doctors">Doctors</Link>
             <Link to="/contact">Contact</Link>
           </Nav>
-          <Navbar.Collapse className="justify-content-end">
-            <button className="book-btn">
-              <Link to="/contact">Book Online</Link>
-            </button>
-          </Navbar.Collapse>
         </Navbar.Collapse>
+        <button className="book-btn">
+          <Link to="/contact">Book Online</Link>
+        </button>
       </Container>
     </Navbar>
   );

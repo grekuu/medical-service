@@ -33,3 +33,21 @@
     }
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  #root > nav {
+    .book-btn {
+      order: 1;
+      text-indent: -9999px;
+      background-image: url(/public/medical_logo.svg);
+      white-space: nowrap;
+      background-color: white;
+      width: 200px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    div > button.navbar-toggler.collapsed {
+      order: 2;
+    }
+  }
+}
