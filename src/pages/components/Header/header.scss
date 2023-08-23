@@ -1,5 +1,9 @@
 #root > nav {
   padding: 0px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
 
   .mobile-dropdown-btn {
     display: none;

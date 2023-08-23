@@ -1,3 +1,4 @@
+import SpecialService from "../components/SpecialService/SpecialService";
 import "./home.scss";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
           <div className="banner-right"></div>
         </div>
       </div>
+      <SpecialService />
     </div>
   );
 };
