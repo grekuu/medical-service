@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 import "./header.scss";
 
@@ -22,6 +23,7 @@ const Header = () => {
         <button className="book-btn">
           <Link to="/contact">Book Online</Link>
         </button>
+        <HiOutlineMenuAlt3 className="mobile-dropdown-btn" />
       </Container>
     </Navbar>
   );
