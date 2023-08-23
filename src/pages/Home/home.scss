@@ -1,0 +1,68 @@
+.home-container {
+  width: 100vw;
+  .banner {
+    width: 100%;
+    background-image: url("/shape_banner_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .banner-content {
+      width: 1200px;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      padding: 110px 15px 0px 15px;
+
+      .banner-left {
+        width: 610px;
+
+        h1 {
+          color: #ffffff;
+          margin: 0px 0px 20px 0px;
+          font-family: "Work Sans", Sans-serif;
+          font-size: 76px;
+          font-weight: 700;
+          line-height: 90px;
+        }
+
+        p {
+          color: #ffffff;
+          font-family: "Roboto", Sans-serif;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 28px;
+          margin: 0px 0px 0px 0px;
+        }
+
+        button {
+          padding: 15px 27px 15px 27px;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 19px;
+          color: #002e68;
+          background-color: #ffffff;
+          border-style: solid;
+          border-width: 0px 0px 0px 0px;
+          border-color: #002e68;
+          margin-top: 45px;
+          margin-bottom: 200px;
+          transition: all 0.4s ease;
+
+          &:hover {
+            background-color: #ff3c6c;
+            color: white;
+          }
+        }
+      }
+
+      .banner-right {
+        flex: 1;
+        background-image: url("/medical-home-banner.png");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+}
