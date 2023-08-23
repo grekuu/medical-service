@@ -8,6 +8,7 @@
     background-position: center center;
 
     .banner-content {
+      max-width: 100%;
       width: 1200px;
       margin-right: auto;
       margin-left: auto;
@@ -62,6 +63,35 @@
         background-position: bottom right;
         background-repeat: no-repeat;
         background-size: contain;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .home-container {
+    .banner {
+      .banner-content {
+        position: relative;
+        .banner-left {
+          z-index: 2;
+          h1 {
+            font-size: 56px;
+            line-height: 70px;
+          }
+          button {
+            margin-bottom: 80px;
+          }
+        }
+        .banner-right {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 1;
+          width: 100vw;
+          height: 100%;
+        }
       }
     }
   }

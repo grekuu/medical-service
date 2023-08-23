@@ -11,7 +11,7 @@ const Home = () => {
               Start your 14-day free trial. <br /> Get started with referral
               elementskit today
             </p>
-            <button>Explore more &#8594;</button>
+            <button>Explore More &#8594;</button>
           </div>
           <div className="banner-right"></div>
         </div>
