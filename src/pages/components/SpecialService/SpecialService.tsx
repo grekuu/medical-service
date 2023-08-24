@@ -10,9 +10,18 @@ const SpecialService = () => {
         <p>Tosser cheesed off tinkety tonk old fruit arse over tit give us.</p>
       </div>
       <div className="special-service-card-container">
-        <SpecialServiceCard />
-        <SpecialServiceCard />
-        <SpecialServiceCard />
+        <SpecialServiceCard
+          img_src="/icon_medical_service1.png"
+          title="Book same day appointments."
+        />
+        <SpecialServiceCard
+          img_src="/icon_medical_service2.png"
+          title="Specialized stroke services."
+        />
+        <SpecialServiceCard
+          img_src="/icon_medical_service3.png"
+          title="Testing for Traces & Impurities."
+        />
       </div>
     </Container>
   );
