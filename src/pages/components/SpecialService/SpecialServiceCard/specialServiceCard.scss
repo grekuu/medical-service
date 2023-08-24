@@ -50,3 +50,17 @@
     transition: all 0.4s ease;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .special-service-card {
+    h3 {
+      font-size: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .special-service-card {
+    width: 90%;
+  }
+}

@@ -26,3 +26,13 @@
     margin-top: 66px;
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .special-service-container {
+    .special-service-card-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+}
