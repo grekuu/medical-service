@@ -45,7 +45,7 @@
   }
 
   .provide-service-right {
-    width: 50%;
+    width: 40%;
     padding-left: 5px;
 
     h2 {
@@ -61,7 +61,68 @@
       font-size: 18px;
       font-weight: 500;
       line-height: 26px;
-      margin: 0px 30px 0px 0px;
+      margin: 0px 30px 45px 0px;
+    }
+    .checklist {
+      display: flex;
+      justify-content: space-between;
+
+      .checklist-item {
+        display: flex;
+        align-items: center;
+
+        span {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 18px;
+          color: #041c5e;
+        }
+
+        .checkmark-icon {
+          font-size: 25px;
+          color: rgb(253, 57, 110);
+          padding-right: 5px;
+        }
+      }
+    }
+
+    .divider {
+      width: 368px;
+      margin: 0 auto;
+      margin-left: 0;
+      border-top: 1px solid #e4e6ec;
+      margin: 36px 0px 30px 0px;
+    }
+
+    .funfact-container {
+      display: flex;
+
+      .fact {
+        margin-right: 60px;
+
+        .number {
+          color: #041c5e;
+          font-size: 44px;
+          font-weight: 700;
+          margin-bottom: -10px;
+        }
+        span {
+          color: #50545e;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .provide-service-container {
+    flex-direction: column;
+
+    .provide-service-left {
+      width: 90%;
+      padding: 0px 10px 0px 10px;
     }
   }
 }
