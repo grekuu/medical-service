@@ -1,3 +1,5 @@
+import { Container } from "react-bootstrap";
+import ProvideService from "../components/ProvideService/ProvideService";
 import SpecialService from "../components/SpecialService/SpecialService";
 import "./home.scss";
 
@@ -5,7 +7,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="banner">
-        <div className="banner-content">
+        <Container className="banner-content">
           <div className="banner-left">
             <h1>Get Quick Medical Service</h1>
             <p>
@@ -15,9 +17,10 @@ const Home = () => {
             <button>Explore More &#8594;</button>
           </div>
           <div className="banner-right"></div>
-        </div>
+        </Container>
       </div>
       <SpecialService />
+      <ProvideService />
     </div>
   );
 };
