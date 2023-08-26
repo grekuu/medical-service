@@ -1,15 +1,27 @@
 import "./serviceTypeBox.scss";
 
-const ServiceTypeBox = () => {
+interface ServiceTypeBoxProps {
+  type: string;
+  title: string;
+  doc_name: string;
+  doc_type: string;
+}
+
+const ServiceTypeBox = ({
+  type,
+  title,
+  doc_name,
+  doc_type,
+}: ServiceTypeBoxProps) => {
   return (
     <div className="service-type-box">
       <img src="/service-01.png" className="service-img"></img>
       <div className="service-info">
-        <span>Medical Checkup</span>
-        <h3>The website of the Royal melbourne Hospital.</h3>
+        <span>{type}</span>
+        <h3>{title}</h3>
         <a href="#">Contact Today &#8594;</a>
-        <h2>Lance Bogrol</h2>
-        <p>Founder</p>
+        <h2>{doc_name}</h2>
+        <p>{doc_type}</p>
       </div>
     </div>
   );
