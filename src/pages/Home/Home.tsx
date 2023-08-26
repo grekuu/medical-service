@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap";
 import ProvideService from "../components/ProvideService/ProvideService";
 import SpecialService from "../components/SpecialService/SpecialService";
 import "./home.scss";
+import AtYourService from "../components/AtYourService/AtYourService";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       </div>
       <SpecialService />
       <ProvideService />
+      <AtYourService />
     </div>
   );
 };
