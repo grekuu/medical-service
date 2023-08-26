@@ -1,0 +1,57 @@
+.qualified-doctors-container {
+  padding: 100px 0px 112px 0px;
+  text-align: center;
+
+  h2 {
+    color: #041c5e;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+    margin: 0px 0px 10px 0px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+  }
+
+  p {
+    color: #50545e;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .cards-container {
+    padding: 50px 0px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h6 {
+    color: #50545e;
+    margin: 0px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #041c5e;
+    transition: all 0.4s ease;
+
+    &:hover {
+      color: #4577ff;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .qualified-doctors-container {
+    .cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
