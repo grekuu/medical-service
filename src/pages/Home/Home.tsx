@@ -4,6 +4,7 @@ import SpecialService from "../components/SpecialService/SpecialService";
 import "./home.scss";
 import AtYourService from "../components/AtYourService/AtYourService";
 import QualifiedDoctors from "../components/QualifiedDoctors/QualifiedDoctors";
+import VideoSection from "../components/VideoSection/VideoSection";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <ProvideService />
       <AtYourService />
       <QualifiedDoctors />
+      <VideoSection />
     </div>
   );
 };
