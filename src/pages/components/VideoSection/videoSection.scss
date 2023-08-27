@@ -115,3 +115,69 @@ iframe {
   z-index: 999;
   pointer-events: none;
 }
+
+@media only screen and (max-width: 1400px) {
+  .video-container {
+    button {
+      top: -70%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .video-container {
+    button {
+      top: -200%;
+    }
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .video-section-container {
+    .content-container {
+      .content-left {
+        h2 {
+          font-size: 36px;
+          line-height: 42px;
+        }
+      }
+
+      .content-right {
+        p {
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+
+  .video-container {
+    button {
+      top: -750%;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .video-container {
+    button {
+      width: 70px;
+      height: 70px;
+      font-size: 28px;
+    }
+  }
+
+  .video-section-container {
+    .content-container {
+      flex-direction: column;
+
+      .content-left {
+        width: 100%;
+      }
+
+      .content-right {
+        width: 100%;
+      }
+    }
+  }
+}
