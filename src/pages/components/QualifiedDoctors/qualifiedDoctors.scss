@@ -49,6 +49,10 @@
 
 @media only screen and (max-width: 992px) {
   .qualified-doctors-container {
+    h2 {
+      font-size: 36px;
+      line-height: 42px;
+    }
     .cards-container {
       flex-direction: column;
       align-items: center;
