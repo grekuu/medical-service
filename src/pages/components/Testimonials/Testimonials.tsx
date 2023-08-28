@@ -33,7 +33,7 @@ const Testimonials: React.FC<TestimonialsProps> = (props) => {
         <h2>Explore our testimonials</h2>
         <p>Tosser cheesed off tinkety tonk old fruit arse over tit give us.</p>
         <Carousel
-          ssr={true} // means to render carousel on server-side.
+          ssr={true}
           infinite={true}
           autoPlay={props.deviceType !== "mobile" ? true : false}
           responsive={responsive}

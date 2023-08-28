@@ -62,7 +62,7 @@ const VideoSection = () => {
         frameBorder="1"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
-        className={videoToggle ? "show" : "hide"}
+        className={videoToggle ? "show yt-iframe" : "hide"}
       ></iframe>
       {videoToggle && <div className="overlay"></div>}
     </>

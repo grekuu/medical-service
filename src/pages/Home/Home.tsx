@@ -7,6 +7,7 @@ import QualifiedDoctors from "../components/QualifiedDoctors/QualifiedDoctors";
 import VideoSection from "../components/VideoSection/VideoSection";
 import BlogPosts from "../components/BlogPosts/BlogPosts";
 import Testimonials from "../components/Testimonials/Testimonials";
+import MapSection from "../components/MapSection/MapSection";
 
 const Home = () => {
   return (
@@ -30,7 +31,8 @@ const Home = () => {
       <QualifiedDoctors />
       <VideoSection />
       <BlogPosts />
-      <Testimonials />
+      <Testimonials deviceType="desktop" />
+      <MapSection />
     </div>
   );
 };
