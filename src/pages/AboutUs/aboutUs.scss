@@ -37,6 +37,10 @@
           grid-column-gap: 0px;
           grid-row-gap: 0px;
           justify-items: center;
+
+          img {
+            padding: 0px 0px 10px 10px;
+          }
         }
       }
     }
@@ -51,6 +55,11 @@
 
         .sponsors-left {
           width: 100%;
+
+          h2 {
+            font-size: 36px;
+            line-height: 42px;
+          }
         }
 
         .sponsors-right {
@@ -61,10 +70,6 @@
             display: flex;
             justify-content: space-between;
             flex-flow: wrap;
-
-            img {
-              padding: 0px 0px 10px 10px;
-            }
           }
         }
       }

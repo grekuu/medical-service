@@ -67,6 +67,10 @@
 
 @media only screen and (max-width: 768px) {
   .testimonials-container {
+    h2 {
+      font-size: 36px;
+      line-height: 42px;
+    }
     .carousel-item {
       flex-direction: column;
 
