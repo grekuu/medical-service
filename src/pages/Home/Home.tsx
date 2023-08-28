@@ -6,6 +6,7 @@ import AtYourService from "../components/AtYourService/AtYourService";
 import QualifiedDoctors from "../components/QualifiedDoctors/QualifiedDoctors";
 import VideoSection from "../components/VideoSection/VideoSection";
 import BlogPosts from "../components/BlogPosts/BlogPosts";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
       <QualifiedDoctors />
       <VideoSection />
       <BlogPosts />
+      <Testimonials />
     </div>
   );
 };
