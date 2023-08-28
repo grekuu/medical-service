@@ -1,3 +1,4 @@
+import { Container } from "react-bootstrap";
 import PageBanner from "../components/PageBanner/PageBanner";
 import ProvideService from "../components/ProvideService/ProvideService";
 import QualifiedDoctors from "../components/QualifiedDoctors/QualifiedDoctors";
@@ -15,6 +16,27 @@ const AboutUs = () => {
       <VideoSection />
       <QualifiedDoctors />
       <Testimonials deviceType="desktop" />
+      <div className="sponsors-section">
+        <Container className="content-container">
+          <div className="sponsors-left">
+            <h2>Some of our medical specialties</h2>
+            <p>
+              Quickly disseminate future-proof total linkage through ubiquitous
+              networks.
+            </p>
+          </div>
+          <div className="sponsors-right">
+            <div className="logos-container">
+              <img src="logo_spcialties1.png" alt="logo" />
+              <img src="logo_spcialties2.png" alt="logo" />
+              <img src="logo_spcialties3.png" alt="logo" />
+              <img src="logo_spcialties4.png" alt="logo" />
+              <img src="logo_spcialties5.png" alt="logo" />
+              <img src="logo_spcialties6.png" alt="logo" />
+            </div>
+          </div>
+        </Container>
+      </div>
     </div>
   );
 };
