@@ -1,0 +1,45 @@
+.explore-departments-container {
+  padding: 107px 0 117px;
+  h2 {
+    color: #041c5e;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+  }
+
+  h3 {
+    color: #50545e;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .explore-departments-container {
+    .cards-container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .explore-departments-container {
+    .cards-container {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(8, 1fr);
+    }
+  }
+}
