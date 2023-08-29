@@ -65,7 +65,7 @@ const FormAppointment = () => {
         </form>
       </div>
       <div className="form-right">
-        <img src="/medical-appointment.png" alt="image" />
+        <img src="/medical-appointment.png" alt="image" loading="lazy" />
       </div>
     </Container>
   );

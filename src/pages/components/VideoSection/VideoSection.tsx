@@ -48,7 +48,7 @@ const VideoSection = () => {
         ref={videoContainerRef}
         onClick={() => setVideoToggle(!videoToggle)}
       >
-        <img src="/img_video_clinic.png" alt="video" />
+        <img src="/img_video_clinic.png" alt="video" loading="lazy" />
         <button onClick={() => setVideoToggle(!videoToggle)}>
           <BsFillPlayFill />
         </button>

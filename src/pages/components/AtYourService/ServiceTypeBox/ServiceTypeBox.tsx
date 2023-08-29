@@ -15,7 +15,7 @@ const ServiceTypeBox = ({
 }: ServiceTypeBoxProps) => {
   return (
     <div className="service-type-box">
-      <img src="/service-01.png" className="service-img"></img>
+      <img src="/service-01.png" className="service-img" loading="lazy"></img>
       <div className="service-info">
         <span>{type}</span>
         <h3>{title}</h3>

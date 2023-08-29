@@ -27,12 +27,12 @@ const AboutUs = () => {
           </div>
           <div className="sponsors-right">
             <div className="logos-container">
-              <img src="logo_spcialties1.png" alt="logo" />
-              <img src="logo_spcialties2.png" alt="logo" />
-              <img src="logo_spcialties3.png" alt="logo" />
-              <img src="logo_spcialties4.png" alt="logo" />
-              <img src="logo_spcialties5.png" alt="logo" />
-              <img src="logo_spcialties6.png" alt="logo" />
+              <img src="logo_spcialties1.png" alt="logo" loading="lazy" />
+              <img src="logo_spcialties2.png" alt="logo" loading="lazy" />
+              <img src="logo_spcialties3.png" alt="logo" loading="lazy" />
+              <img src="logo_spcialties4.png" alt="logo" loading="lazy" />
+              <img src="logo_spcialties5.png" alt="logo" loading="lazy" />
+              <img src="logo_spcialties6.png" alt="logo" loading="lazy" />
             </div>
           </div>
         </Container>

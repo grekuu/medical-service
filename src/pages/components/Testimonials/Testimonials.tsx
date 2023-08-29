@@ -60,7 +60,11 @@ const Testimonials: React.FC<TestimonialsProps> = (props) => {
               </div>
             </div>
             <div className="carousel-right">
-              <img src="/img_medical_testimonial1.png" alt="person" />
+              <img
+                src="/img_medical_testimonial1.png"
+                alt="person"
+                loading="lazy"
+              />
             </div>
           </div>
           {/* Item 2 */}
@@ -76,7 +80,11 @@ const Testimonials: React.FC<TestimonialsProps> = (props) => {
               </div>
             </div>
             <div className="carousel-right">
-              <img src="/img_medical_testimonial2.png" alt="person" />
+              <img
+                src="/img_medical_testimonial2.png"
+                alt="person"
+                loading="lazy"
+              />
             </div>
           </div>
           {/* Item 3 */}
@@ -92,7 +100,11 @@ const Testimonials: React.FC<TestimonialsProps> = (props) => {
               </div>
             </div>
             <div className="carousel-right">
-              <img src="/img_medical_testimonial3.png" alt="person" />
+              <img
+                src="/img_medical_testimonial3.png"
+                alt="person"
+                loading="lazy"
+              />
             </div>
           </div>
         </Carousel>

@@ -6,7 +6,7 @@ const ProvideService = () => {
   return (
     <Container className="provide-service-container">
       <div className="provide-service-left">
-        <img src="/img_counter.png" alt="img_counter" />
+        <img src="/img_counter.png" alt="img_counter" loading="lazy" />
         <div className="expertise-years">
           <h3>16</h3>
           <p>

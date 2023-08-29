@@ -16,7 +16,7 @@ const BlogPost = ({ id, first_name, last_name, avatar }: BlogPostProps) => {
           4 April
         </a>
         <div className="person">
-          <img src={avatar} alt="person" />
+          <img src={avatar} alt="person" loading="lazy" />
           <h3>
             {first_name} {last_name}
           </h3>

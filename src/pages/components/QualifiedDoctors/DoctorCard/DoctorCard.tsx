@@ -11,7 +11,7 @@ const DoctorCard = ({ doc_name, doc_type, doc_img }: DoctorCardProps) => {
   return (
     <div className="doctor-card">
       <div className="image-container">
-        <img src={doc_img} alt="medical-team" />
+        <img src={doc_img} alt="medical-team" loading="lazy" />
         <div className="image-overlay">
           <div className="small-squares">
             <a href="https://www.facebook.com/" className="small-square">
