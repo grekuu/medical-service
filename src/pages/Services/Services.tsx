@@ -1,4 +1,5 @@
 import AtYourService from "../components/AtYourService/AtYourService";
+import EmergencyBanner from "../components/EmergencyBanner/EmergencyBanner";
 import ExploreDepartments from "../components/ExploreDepartments/ExploreDepartments";
 import FormAppointment from "../components/FormAppointment/FormAppointment";
 import PageBanner from "../components/PageBanner/PageBanner";
@@ -11,6 +12,7 @@ const Services = () => {
       <ExploreDepartments />
       <AtYourService />
       <FormAppointment />
+      <EmergencyBanner />
     </div>
   );
 };
