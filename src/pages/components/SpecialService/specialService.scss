@@ -36,3 +36,14 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .special-service-container {
+    .text-container {
+      h2 {
+        font-size: 36px;
+        line-height: 42px;
+      }
+    }
+  }
+}

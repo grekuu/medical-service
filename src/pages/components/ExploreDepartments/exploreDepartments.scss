@@ -1,5 +1,5 @@
 .explore-departments-container {
-  padding: 107px 0 117px;
+  padding: 107px 8px 117px 8px;
   h2 {
     color: #041c5e;
     margin: 0;
@@ -37,6 +37,10 @@
 
 @media only screen and (max-width: 768px) {
   .explore-departments-container {
+    h2 {
+      font-size: 36px;
+      line-height: 42px;
+    }
     .cards-container {
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: repeat(8, 1fr);
