@@ -18,4 +18,5 @@ Medical service website offers a seamless online platform for users to convenien
 # Screenshots of the Project 📸
 
 ## Home Page 🏡
-![medical-service-grekuu vercel app_](https://github.com/grekuu/medical-service/assets/91375853/9deb9e17-429d-4913-8f67-b2b36709535a)
+![medical-service-silk vercel app_](https://github.com/grekuu/medical-service/assets/91375853/6ed650f2-cd4d-4621-bc44-a1db7c1007a5)
+
