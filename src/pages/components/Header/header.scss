@@ -1,8 +1,40 @@
+.mobile-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: height 0.4s ease;
+  background-color: white;
+  z-index: 9998;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+
+  a {
+    color: black;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+
+.hide-nav {
+  height: 0;
+  transition: height 0.4s ease;
+
+  a {
+    display: none;
+  }
+}
+
 #root > nav {
   padding: 0px;
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 9999;
   background-color: white;
   box-shadow: 0px 1px 2px 0px
     rgba(2.9999999999999982, 12.000000000000027, 37, 0.16);
@@ -12,7 +44,7 @@
   }
 
   .navigation {
-    a {
+    .desktop-link {
       text-decoration: none;
       color: #041c5e;
       margin-right: 40px;
@@ -57,7 +89,8 @@
       background-image: url(/medical_logo.svg);
       white-space: nowrap;
       background-color: white;
-      width: 200px;
+      width: 150px;
+      background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
     }
