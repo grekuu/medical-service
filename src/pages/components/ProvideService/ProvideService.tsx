@@ -4,7 +4,7 @@ import { BiSolidCheckCircle } from "react-icons/bi";
 
 const ProvideService = () => {
   return (
-    <Container className="provide-service-container">
+    <Container className="provide-service-container" data-aos="zoom-in-up">
       <div className="provide-service-left">
         <img src="/img_counter.png" alt="img_counter" loading="lazy" />
         <div className="expertise-years">

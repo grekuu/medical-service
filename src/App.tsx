@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "aos/dist/aos.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useEffect } from "react";
 import "./index.scss";
 import Header from "./pages/components/Header/Header";
 import Footer from "./pages/components/Footer/Footer";
@@ -9,8 +10,12 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import Services from "./pages/Services/Services";
 import Doctors from "./pages/Doctors/Doctors";
 import Contact from "./pages/Contact/Contact";
+import Aos from "aos";
 
 function App() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
       <Router>

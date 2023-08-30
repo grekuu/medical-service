@@ -22,7 +22,7 @@ const Home = () => {
             </p>
             <button>Explore More &#8594;</button>
           </div>
-          <div className="banner-right"></div>
+          <div className="banner-right" data-aos="fade-right"></div>
         </Container>
       </div>
       <SpecialService />

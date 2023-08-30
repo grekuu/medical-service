@@ -14,11 +14,19 @@ const PageBanner = ({ background, title }: PageBannerProps) => {
       style={{ backgroundImage: `url(${background})` }}
     >
       <Container className="content-container">
-        <h6>{title}</h6>
+        <h6 data-aos="zoom-in-up">{title}</h6>
         <div className="nav-info">
-          <span>Home</span>
-          <GoDotFill className="dot" />
-          <span>{title}</span>
+          <span data-aos-delay="300" data-aos="zoom-in-up">
+            Home
+          </span>
+          <GoDotFill
+            className="dot"
+            data-aos-delay="300"
+            data-aos="zoom-in-up"
+          />
+          <span data-aos-delay="300" data-aos="zoom-in-up">
+            {title}
+          </span>
         </div>
       </Container>
     </div>

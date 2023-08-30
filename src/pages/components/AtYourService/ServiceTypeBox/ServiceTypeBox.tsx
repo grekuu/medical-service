@@ -14,7 +14,7 @@ const ServiceTypeBox = ({
   doc_type,
 }: ServiceTypeBoxProps) => {
   return (
-    <div className="service-type-box">
+    <div className="service-type-box" data-aos="fade-up-right">
       <img src="/service-01.png" className="service-img" loading="lazy"></img>
       <div className="service-info">
         <span>{type}</span>

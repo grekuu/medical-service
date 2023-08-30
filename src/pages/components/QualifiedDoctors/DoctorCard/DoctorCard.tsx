@@ -9,7 +9,7 @@ interface DoctorCardProps {
 
 const DoctorCard = ({ doc_name, doc_type, doc_img }: DoctorCardProps) => {
   return (
-    <div className="doctor-card">
+    <div className="doctor-card" data-aos="flip-up">
       <div className="image-container">
         <img src={doc_img} alt="medical-team" loading="lazy" />
         <div className="image-overlay">

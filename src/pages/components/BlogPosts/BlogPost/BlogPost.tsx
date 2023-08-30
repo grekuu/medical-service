@@ -11,7 +11,7 @@ export interface BlogPostProps {
 const BlogPost = ({ id, first_name, last_name, avatar }: BlogPostProps) => {
   return (
     <Container>
-      <div className="post-container" key={id}>
+      <div className="post-container" key={id} data-aos="zoom-in">
         <a href="#" className="date">
           4 April
         </a>
