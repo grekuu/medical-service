@@ -5,7 +5,6 @@ import { useLocation } from "react-router-dom";
 
 const QualifiedDoctors = () => {
   const location = useLocation();
-  console.log(location.pathname);
   return (
     <Container className="qualified-doctors-container">
       <h2>Our high qualified Doctors</h2>
