@@ -4,8 +4,8 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link, useLocation } from "react-router-dom";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { useState, useEffect } from "react";
-
 import "./header.scss";
+import Aos from "aos";
 
 const Header = () => {
   const [showMobileNav, setShowMobileNav] = useState(false);
@@ -14,6 +14,10 @@ const Header = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
+
+  useEffect(() => {
+    Aos.refresh();
+  }, [location]);
   return (
     <>
       <Navbar expand="lg">

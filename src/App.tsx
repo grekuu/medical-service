@@ -15,7 +15,18 @@ import Aos from "aos";
 function App() {
   useEffect(() => {
     Aos.init();
+
+    const handleScroll = () => {
+      Aos.refresh();
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
+
   return (
     <>
       <Router>
