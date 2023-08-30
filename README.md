@@ -1,27 +1,21 @@
-# React + TypeScript + Vite
+![medical_logo](https://github.com/grekuu/medical-service/assets/91375853/3917025b-9d9e-400d-8d5c-432f41600f68)
+# About the project
+Medical service website offers a seamless online platform for users to conveniently schedule their appointments. Simplifying the process, this platform empowers users to effortlessly book their medical appointments through an intuitive interface. Embrace a new era of healthcare scheduling, putting control at your fingertips.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👉 Live demo: <a href="https://medical-service-grekuu.vercel.app/">Click</a>
 
-Currently, two official plugins are available:
+## Build with:
+» React
+» Typescript
+» Sass
+» Vite
+» Aos
+» Axios
+» Bootstrap
+» react-router-dom
+» react-icons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Screenshots of the Project 📸
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Home Page 🏡
+![medical-service-grekuu vercel app_](https://github.com/grekuu/medical-service/assets/91375853/9deb9e17-429d-4913-8f67-b2b36709535a)
