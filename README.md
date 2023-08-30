@@ -5,14 +5,14 @@ Medical service website offers a seamless online platform for users to convenien
 👉 Live demo: <a href="https://medical-service-grekuu.vercel.app/">Click</a>
 
 ## Build with:
-» React
-» Typescript
-» Sass
-» Vite
-» Aos
-» Axios
-» Bootstrap
-» react-router-dom
+» React </br>
+» Typescript </br>
+» Sass </br>
+» Vite </br>
+» Aos </br>
+» Axios </br>
+» Bootstrap </br>
+» react-router-dom </br>
 » react-icons
 
 # Screenshots of the Project 📸
