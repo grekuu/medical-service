@@ -1,8 +1,11 @@
 import { Container } from "react-bootstrap";
 import "./qualifiedDoctors.scss";
 import DoctorCard from "./DoctorCard/DoctorCard";
+import { useLocation } from "react-router-dom";
 
 const QualifiedDoctors = () => {
+  const location = useLocation();
+  console.log(location.pathname);
   return (
     <Container className="qualified-doctors-container">
       <h2>Our high qualified Doctors</h2>
@@ -28,8 +31,35 @@ const QualifiedDoctors = () => {
           doc_type="Neurologist"
           doc_img="/medical-team-4.png"
         />
+
+        {location.pathname === "/doctors" ? (
+          <>
+            <DoctorCard
+              doc_name="Dr. Jackson Pot"
+              doc_type="Neurologist"
+              doc_img="/medical-team-5.png"
+            />
+            <DoctorCard
+              doc_name="Dr. Jackson Pot"
+              doc_type="Neurologist"
+              doc_img="/medical-team-6.png"
+            />
+            <DoctorCard
+              doc_name="Dr. Jackson Pot"
+              doc_type="Neurologist"
+              doc_img="/medical-team-7.png"
+            />
+            <DoctorCard
+              doc_name="Dr. Jackson Pot"
+              doc_type="Neurologist"
+              doc_img="/medical-team-8.png"
+            />
+          </>
+        ) : (
+          <></>
+        )}
       </div>
-      <div>
+      <div className={location.pathname === "/doctors" ? "hide" : ""}>
         <h6>Want more information?</h6> <a href="#">See the whole stuff.</a>
       </div>
     </Container>

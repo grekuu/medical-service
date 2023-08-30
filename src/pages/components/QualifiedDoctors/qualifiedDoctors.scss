@@ -21,8 +21,8 @@
 
   .cards-container {
     padding: 50px 0px 30px 0px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   h6 {
@@ -54,8 +54,15 @@
       line-height: 42px;
     }
     .cards-container {
-      flex-direction: column;
-      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .qualified-doctors-container {
+    .cards-container {
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 }

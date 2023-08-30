@@ -1,9 +1,11 @@
 .doctor-card {
-  width: 20%;
+  max-width: 90%;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
   border-color: #edeef2;
   transition: all 0.4s ease;
+  margin: 0 auto;
+  margin-top: 20px;
 
   &:hover {
     box-shadow: 7px 7px 0px -1px rgba(69, 119, 255, 255);
@@ -87,12 +89,5 @@
       margin: 0px 0px 0px 0px;
       text-align: left;
     }
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .doctor-card {
-    margin-top: 20px;
-    width: 50%;
   }
 }
