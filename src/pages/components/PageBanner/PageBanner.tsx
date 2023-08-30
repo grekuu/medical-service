@@ -16,17 +16,9 @@ const PageBanner = ({ background, title }: PageBannerProps) => {
       <Container className="content-container">
         <h6 data-aos="zoom-in-up">{title}</h6>
         <div className="nav-info">
-          <span data-aos-delay="300" data-aos="zoom-in-up">
-            Home
-          </span>
-          <GoDotFill
-            className="dot"
-            data-aos-delay="300"
-            data-aos="zoom-in-up"
-          />
-          <span data-aos-delay="300" data-aos="zoom-in-up">
-            {title}
-          </span>
+          <span>Home</span>
+          <GoDotFill className="dot" />
+          <span>{title}</span>
         </div>
       </Container>
     </div>
