@@ -1,19 +1,19 @@
-import "./specialServiceCard.scss";
+import './specialServiceCard.scss'
 
 interface SpecialServiceCardProps {
-  img_src: string;
-  title: string;
+    img_src: string
+    title: string
 }
 
 const SpecialServiceCard = ({ img_src, title }: SpecialServiceCardProps) => {
-  return (
-    <div className="special-service-card" data-aos="flip-left">
-      <img src={img_src} alt="icon" loading="lazy" />
-      <h3>{title}</h3>
-      <p>The bee's knees the arse he lost his bottle super so I said hotpot.</p>
-      <a href="#">Read More &#8594;</a>
-    </div>
-  );
-};
+    return (
+        <div className="special-service-card" data-aos="flip-left">
+            <img src={img_src} alt="icon" loading="lazy" />
+            <h3>{title}</h3>
+            <p>The bee's knees the arse he lost his bottle super so I said hotpot.</p>
+            <a href="#">Read More &#8594;</a>
+        </div>
+    )
+}
 
-export default SpecialServiceCard;
+export default SpecialServiceCard

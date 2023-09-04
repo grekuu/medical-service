@@ -1,39 +1,39 @@
 .page-banner-container {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  padding: 139px 0 144px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    padding: 139px 0 144px;
 
-  .content-container {
-    h6 {
-      color: #fff;
-      margin: 0;
-      font-size: 76px;
-      font-weight: 700;
-      line-height: 90px;
-    }
+    .content-container {
+        h6 {
+            color: #fff;
+            margin: 0;
+            font-size: 76px;
+            font-weight: 700;
+            line-height: 90px;
+        }
 
-    span {
-      color: #ffffffba;
-    }
+        span {
+            color: #ffffffba;
+        }
 
-    .dot {
-      color: #ffffffba;
-      font-size: 10px;
-      margin: 0px 10px 0px 10px;
+        .dot {
+            color: #ffffffba;
+            font-size: 10px;
+            margin: 0px 10px 0px 10px;
+        }
     }
-  }
 }
 
 @media only screen and (max-width: 992px) {
-  .page-banner-container {
-    padding: 50px 0 40px;
+    .page-banner-container {
+        padding: 50px 0 40px;
 
-    .content-container {
-      h6 {
-        font-size: 46px;
-      }
+        .content-container {
+            h6 {
+                font-size: 46px;
+            }
+        }
     }
-  }
 }

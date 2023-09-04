@@ -1,157 +1,156 @@
 .provide-service-container {
-  width: 100%;
-  padding: 118px 0px 118px 0px;
-  display: flex;
+    width: 100%;
+    padding: 118px 0px 118px 0px;
+    display: flex;
 
-  .provide-service-left {
-    width: 50%;
-    padding-right: 5px;
+    .provide-service-left {
+        width: 50%;
+        padding-right: 5px;
 
-    img {
-      z-index: 1;
-      width: 95%;
-    }
-
-    .expertise-years {
-      margin: -55px 0px 0px 70px;
-      padding: 20px 20px 18px 30px;
-      background-color: #3a6fff;
-      box-shadow: 0px 20px 20px 0px
-        rgba(0.9999999999999956, 55.000000000000085, 201.00000000000003, 0.3);
-      z-index: 2;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      width: fit-content;
-
-      h3 {
-        color: #ffffff;
-        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
-        margin: -10px 20px 0px 0px;
-        font-size: 60px;
-        font-weight: 700;
-        line-height: 26px;
-      }
-
-      p {
-        color: #ffffff;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20px;
-        margin: 0px 0px 0px 0px;
-      }
-    }
-  }
-
-  .provide-service-right {
-    width: 40%;
-    padding-left: 5px;
-
-    h2 {
-      color: #041c5e;
-      margin: -10px 118px 15px 0px;
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 52px;
-    }
-
-    p {
-      color: #041c5e;
-      font-size: 18px;
-      font-weight: 500;
-      line-height: 26px;
-      margin: 0px 30px 45px 0px;
-    }
-    .checklist {
-      display: flex;
-      justify-content: space-between;
-
-      .checklist-item {
-        display: flex;
-        align-items: center;
-
-        span {
-          font-size: 16px;
-          font-weight: 500;
-          line-height: 18px;
-          color: #041c5e;
+        img {
+            z-index: 1;
+            width: 95%;
         }
 
-        .checkmark-icon {
-          font-size: 25px;
-          color: rgb(253, 57, 110);
-          padding-right: 5px;
+        .expertise-years {
+            margin: -55px 0px 0px 70px;
+            padding: 20px 20px 18px 30px;
+            background-color: #3a6fff;
+            box-shadow: 0px 20px 20px 0px rgba(0.9999999999999956, 55.000000000000085, 201.00000000000003, 0.3);
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: fit-content;
+
+            h3 {
+                color: #ffffff;
+                text-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+                margin: -10px 20px 0px 0px;
+                font-size: 60px;
+                font-weight: 700;
+                line-height: 26px;
+            }
+
+            p {
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                margin: 0px 0px 0px 0px;
+            }
         }
-      }
     }
 
-    .divider {
-      width: 368px;
-      margin: 0 auto;
-      margin-left: 0;
-      border-top: 1px solid #e4e6ec;
-      margin: 36px 0px 30px 0px;
-    }
+    .provide-service-right {
+        width: 40%;
+        padding-left: 5px;
 
-    .funfact-container {
-      display: flex;
-
-      .fact {
-        margin-right: 60px;
-
-        .number {
-          color: #041c5e;
-          font-size: 44px;
-          font-weight: 700;
-          margin-bottom: -10px;
+        h2 {
+            color: #041c5e;
+            margin: -10px 118px 15px 0px;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 52px;
         }
-        span {
-          color: #50545e;
-          font-size: 16px;
-          font-weight: 400;
+
+        p {
+            color: #041c5e;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 26px;
+            margin: 0px 30px 45px 0px;
         }
-      }
+        .checklist {
+            display: flex;
+            justify-content: space-between;
+
+            .checklist-item {
+                display: flex;
+                align-items: center;
+
+                span {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    color: #041c5e;
+                }
+
+                .checkmark-icon {
+                    font-size: 25px;
+                    color: rgb(253, 57, 110);
+                    padding-right: 5px;
+                }
+            }
+        }
+
+        .divider {
+            width: 368px;
+            margin: 0 auto;
+            margin-left: 0;
+            border-top: 1px solid #e4e6ec;
+            margin: 36px 0px 30px 0px;
+        }
+
+        .funfact-container {
+            display: flex;
+
+            .fact {
+                margin-right: 60px;
+
+                .number {
+                    color: #041c5e;
+                    font-size: 44px;
+                    font-weight: 700;
+                    margin-bottom: -10px;
+                }
+                span {
+                    color: #50545e;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+        }
     }
-  }
 }
 
 @media only screen and (max-width: 1200px) {
-  .provide-service-container {
-    .provide-service-right {
-      h2 {
-        font-size: 40px;
-        margin: 0px 0px 15px 0px;
-      }
+    .provide-service-container {
+        .provide-service-right {
+            h2 {
+                font-size: 40px;
+                margin: 0px 0px 15px 0px;
+            }
+        }
     }
-  }
 }
 
 @media only screen and (max-width: 992px) {
-  .provide-service-container {
-    flex-direction: column;
-
-    .provide-service-left {
-      width: 90%;
-      padding: 0px 10px 0px 10px;
-    }
-
-    .provide-service-right {
-      margin-top: 30px;
-      width: 90%;
-      padding: 0px 10px 0px 10px;
-
-      h2 {
-        font-size: 36px;
-        line-height: 42px;
-      }
-
-      .checklist {
+    .provide-service-container {
         flex-direction: column;
-        .checklist-item {
-          white-space: nowrap;
+
+        .provide-service-left {
+            width: 90%;
+            padding: 0px 10px 0px 10px;
         }
-      }
+
+        .provide-service-right {
+            margin-top: 30px;
+            width: 90%;
+            padding: 0px 10px 0px 10px;
+
+            h2 {
+                font-size: 36px;
+                line-height: 42px;
+            }
+
+            .checklist {
+                flex-direction: column;
+                .checklist-item {
+                    white-space: nowrap;
+                }
+            }
+        }
     }
-  }
 }

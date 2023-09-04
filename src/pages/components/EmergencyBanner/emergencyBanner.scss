@@ -1,98 +1,98 @@
 .emergency-banner-container {
-  max-width: 100vw;
-  padding: 80px 0 85px;
-  background-image: url("/Group-100.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    max-width: 100vw;
+    padding: 80px 0 85px;
+    background-image: url('/Group-100.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-  .content-container {
-    display: flex;
-    align-items: center;
+    .content-container {
+        display: flex;
+        align-items: center;
 
-    .emergency-left {
-      width: 50%;
+        .emergency-left {
+            width: 50%;
 
-      h2 {
-        color: #fff;
-        margin: 0 0 16px;
-        font-size: 30px;
-        font-weight: 600;
-        line-height: 30px;
-      }
+            h2 {
+                color: #fff;
+                margin: 0 0 16px;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 30px;
+            }
 
-      h3 {
-        color: #fff;
-        font-size: 50px;
-        font-weight: 700;
-        line-height: 50px;
-      }
+            h3 {
+                color: #fff;
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 50px;
+            }
+        }
+        .emergency-right {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+
+            h2 {
+                color: #fff;
+                margin: 0;
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 32px;
+            }
+
+            h3 {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 26px;
+                margin: 0 0 23px;
+            }
+
+            input {
+                font-size: 16px;
+                background-color: #0c3197;
+                color: #ffffff50;
+                padding: 15px 0 15px 30px;
+                outline: none;
+                border: none;
+                width: 300px;
+            }
+
+            button {
+                padding: 15.5px 30px 15.5px 28px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 20px;
+                color: #041c5e;
+                background-color: #fff;
+                border-style: none;
+                border-radius: 0 0 0 0;
+            }
+        }
     }
-    .emergency-right {
-      width: 50%;
-      display: flex;
-      justify-content: center;
-
-      h2 {
-        color: #fff;
-        margin: 0;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 32px;
-      }
-
-      h3 {
-        color: #fff;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 26px;
-        margin: 0 0 23px;
-      }
-
-      input {
-        font-size: 16px;
-        background-color: #0c3197;
-        color: #ffffff50;
-        padding: 15px 0 15px 30px;
-        outline: none;
-        border: none;
-        width: 300px;
-      }
-
-      button {
-        padding: 15.5px 30px 15.5px 28px;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20px;
-        color: #041c5e;
-        background-color: #fff;
-        border-style: none;
-        border-radius: 0 0 0 0;
-      }
-    }
-  }
 }
 
 @media only screen and (max-width: 992px) {
-  .emergency-banner-container {
-    .content-container {
-      flex-direction: column;
-      align-items: start;
+    .emergency-banner-container {
+        .content-container {
+            flex-direction: column;
+            align-items: start;
 
-      .emergency-right {
-        justify-content: flex-start;
-        width: 100%;
-        margin-top: 30px;
-      }
-      .emergency-left {
-        width: 100%;
-        h2 {
-          font-size: 30px;
+            .emergency-right {
+                justify-content: flex-start;
+                width: 100%;
+                margin-top: 30px;
+            }
+            .emergency-left {
+                width: 100%;
+                h2 {
+                    font-size: 30px;
+                }
+                h3 {
+                    font-size: 35px;
+                }
+            }
         }
-        h3 {
-          font-size: 35px;
-        }
-      }
     }
-  }
 }

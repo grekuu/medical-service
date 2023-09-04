@@ -1,101 +1,100 @@
 .mobile-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  transition: height 0.4s ease;
-  background-color: white;
-  z-index: 9998;
-  padding-top: 80px;
-  display: flex;
-  flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: height 0.4s ease;
+    background-color: white;
+    z-index: 9998;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
 
-  a {
-    color: black;
-    padding: 10px 15px 10px 15px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-  }
+    a {
+        color: black;
+        padding: 10px 15px 10px 15px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
 }
 
 .hide-nav {
-  height: 0;
-  transition: height 0.4s ease;
+    height: 0;
+    transition: height 0.4s ease;
 
-  a {
-    display: none;
-  }
+    a {
+        display: none;
+    }
 }
 
 #root > nav {
-  padding: 0px;
-  position: sticky;
-  top: 0;
-  z-index: 9999;
-  background-color: white;
-  box-shadow: 0px 1px 2px 0px
-    rgba(2.9999999999999982, 12.000000000000027, 37, 0.16);
+    padding: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: white;
+    box-shadow: 0px 1px 2px 0px rgba(2.9999999999999982, 12.000000000000027, 37, 0.16);
 
-  .mobile-dropdown-btn {
-    display: none;
-  }
-
-  .navigation {
-    .desktop-link {
-      text-decoration: none;
-      color: #041c5e;
-      margin-right: 40px;
-
-      &:hover,
-      &:focus {
-        color: #3a6fff;
-      }
-    }
-  }
-
-  .book-btn {
-    height: 100%;
-    font-weight: 500;
-    border: none;
-    background-color: #ff3c6c;
-    font-size: 16px;
-    padding: 18px 37px 18px 37px;
-    transition: all 0.4s ease;
-
-    a {
-      color: white;
-      text-decoration: none;
-    }
-
-    &:hover {
-      background-color: #406cfc;
-    }
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  #root > nav {
     .mobile-dropdown-btn {
-      display: block;
-      font-size: 30px;
-      color: #041c5e;
+        display: none;
+    }
+
+    .navigation {
+        .desktop-link {
+            text-decoration: none;
+            color: #041c5e;
+            margin-right: 40px;
+
+            &:hover,
+            &:focus {
+                color: #3a6fff;
+            }
+        }
     }
 
     .book-btn {
-      text-indent: -9999px;
-      background-image: url(/medical_logo.svg);
-      white-space: nowrap;
-      background-color: white;
-      width: 150px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
+        height: 100%;
+        font-weight: 500;
+        border: none;
+        background-color: #ff3c6c;
+        font-size: 16px;
+        padding: 18px 37px 18px 37px;
+        transition: all 0.4s ease;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        &:hover {
+            background-color: #406cfc;
+        }
     }
-    div > button.navbar-toggler.collapsed {
-      display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    #root > nav {
+        .mobile-dropdown-btn {
+            display: block;
+            font-size: 30px;
+            color: #041c5e;
+        }
+
+        .book-btn {
+            text-indent: -9999px;
+            background-image: url(/medical_logo.svg);
+            white-space: nowrap;
+            background-color: white;
+            width: 150px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        div > button.navbar-toggler.collapsed {
+            display: none;
+        }
     }
-  }
 }
